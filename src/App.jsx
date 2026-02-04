@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Aboutme } from './pages/AboutMe'
+import { AboutMe } from './pages/AboutMe'
 import { Projects } from './pages/Projects'
 import { Home} from './pages/Home'
 import { Techstack} from './pages/Techstack'
@@ -14,7 +14,7 @@ import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 function App() {
 const routes = createBrowserRouter([
   { path :"/" , element: <Home />},
-  { path :"/AboutMe" , element: <Aboutme/>},
+  { path :"/AboutMe" , element: <AboutMe/>},
   { path : "/Techstack" , element : <Techstack />},
   { path :"/Projects" , element : <Projects/>},
   { path :"/contact" , element : < Contact/>}
