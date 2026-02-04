@@ -2,7 +2,7 @@ import './Aboutme.css'
 import { Footer } from '../components/Footer'
 import { Navigation } from '../components/Navigation'
 
-export const Aboutme = () => {
+export const AboutMe = () => {
     return (
         <div className="layout-container">
             <Navigation />
